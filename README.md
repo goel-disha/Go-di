@@ -136,13 +136,6 @@ This project provided practical exposure to aerial robotics and helped me unders
 
 Alongside the simulation work, I explored a funnel-shaped landing-guide concept intended to provide a wider capture region during the UAV's final approach. The sketch shows the proposed side and top geometry, potential metal contact regions, and a central visual marker. I also built a cardboard mock-up to examine the guide geometry. This is an early design concept and mock-up; landing accuracy, contact reliability, and safety have not yet been validated.
 
-**Concept sketch**
-
-![Funnel-shaped UAV landing-guide concept showing side and top views, proposed contact regions and a central visual marker](https://raw.githubusercontent.com/goel-disha/px4_drone_simulation/main/media/landing_platform/funnel_landing_concept.webp)
-
-**Cardboard mock-up**
-
-![Cardboard mock-up of the funnel-shaped landing-platform concept](https://raw.githubusercontent.com/goel-disha/px4_drone_simulation/main/media/landing_platform/cardboard_mockup.webp)
 
 **Marker reference**
 
