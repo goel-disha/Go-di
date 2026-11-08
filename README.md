@@ -97,6 +97,10 @@ The project has helped me understand the challenges involved in developing relia
 
 **Repository:** [AGV – Sensor Fusion and Navigation](https://github.com/goel-disha/AGV)
 
+The AGV repository also includes a separate conceptual reference diagram for lateral vehicle-motion kinematics. It is labelled there as a bicycle-model reference, not as the differential-drive model used in the current AGV simulation.
+
+![Reference diagram of lateral vehicle-motion kinematics](https://raw.githubusercontent.com/goel-disha/AGV/main/docs/references/lateral_vehicle_kinematics.webp)
+
 **Results / Evaluation:** _To be added._
 
 ---
@@ -298,7 +302,32 @@ The project helped me understand practical control-system challenges, particular
 - [PID Task 2B](https://github.com/goel-disha/eyantra_pid_task2b)
 - [Line Controller](https://github.com/goel-disha/LineController)
 
+![CoppeliaSim e-Yantra Task 2B simulation showing line-tracing sensor views and the track layout](https://raw.githubusercontent.com/goel-disha/eyantra_pid_task2b/main/assets/eyr_task2b_simulation.webp)
+
 **Results / Evaluation:** _To be added._
+
+---
+
+## 8. Four-Wheeled Robot Simulation and Sensor Integration
+
+**Robot Simulation | Sensor Integration | Gazebo**
+
+Created a four-wheeled robot in Gazebo and integrated camera, ultrasonic, and IMU sensors. Recorded data from the respective sensors to explore simulated sensor outputs and robot-environment awareness.
+
+My work involved:
+- Creating and configuring a four-wheeled robot in Gazebo.
+- Integrating a camera sensor for visual information.
+- Adding an ultrasonic sensor for proximity measurements.
+- Integrating an IMU for inertial measurements.
+- Recording data from the respective simulated sensors.
+
+**Technologies:** Gazebo, Robot Simulation, Camera Sensor, Ultrasonic Sensor, IMU.
+
+**Repository:** [Gazebo Robot Simulation](https://github.com/goel-disha/gazebo_simulation)
+
+![Four-wheeled robot Gazebo simulation with sensor visualisation and a test obstacle](https://raw.githubusercontent.com/goel-disha/gazebo_simulation/main/assets/gazebo_sensor_view.webp)
+
+**Results / Evaluation:** _Sensor recordings and analysis to be added._
 
 ---
 
