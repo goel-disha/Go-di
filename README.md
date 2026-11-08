@@ -119,7 +119,7 @@ My work involved:
 
 - Exploring UAV simulation using Gazebo and PX4 Autopilot.
 - Understanding the interaction between the flight controller and the simulated UAV.
-- Working with OpenCV for ArUco marker detection.
+- Exploring OpenCV-based visual marker-candidate detection for alignment using image thresholding and contour/shape checks.
 - Studying how visual markers can provide reference information for target identification and landing.
 - Exploring camera and depth-sensing information for environmental awareness.
 - Investigating the challenges of autonomous navigation when GPS information is unavailable.
@@ -131,6 +131,27 @@ This project provided practical exposure to aerial robotics and helped me unders
 **Research Direction:** Vision-based navigation, visual localization, and autonomous UAV landing in GPS-denied environments.
 
 **Repository:** [UAV Simulation](https://github.com/goel-disha/px4_drone_simulation)
+
+### Funnel-Guided Landing Platform – Design Exploration
+
+Alongside the simulation work, I explored a funnel-shaped landing-guide concept intended to provide a wider capture region during the UAV's final approach. The sketch shows the proposed side and top geometry, potential metal contact regions, and a central visual marker. I also built a cardboard mock-up to examine the guide geometry. This is an early design concept and mock-up; landing accuracy, contact reliability, and safety have not yet been validated.
+
+**Concept sketch**
+
+![Funnel-shaped UAV landing-guide concept showing side and top views, proposed contact regions and a central visual marker](https://raw.githubusercontent.com/goel-disha/px4_drone_simulation/main/media/landing_platform/funnel_landing_concept.webp)
+
+**Cardboard mock-up**
+
+![Cardboard mock-up of the funnel-shaped landing-platform concept](https://raw.githubusercontent.com/goel-disha/px4_drone_simulation/main/media/landing_platform/cardboard_mockup.webp)
+
+**Marker reference**
+
+![Black-and-white landing marker pattern reference](https://raw.githubusercontent.com/goel-disha/px4_drone_simulation/main/media/landing_platform/marker_pattern_reference.webp)
+
+**Demonstration videos**
+- [Short clip 01](https://github.com/goel-disha/px4_drone_simulation/blob/main/media/videos/landing_demo_01.mp4)
+- [Short clip 02](https://github.com/goel-disha/px4_drone_simulation/blob/main/media/videos/landing_demo_02.mp4)
+- [Longer simulation / camera-view clip](https://github.com/goel-disha/px4_drone_simulation/blob/main/media/videos/landing_simulation_view.mp4)
 
 **Results / Evaluation:** _To be added._
 
